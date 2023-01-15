@@ -3,6 +3,11 @@ Instalador da GUI na versão nano do nethunter
 
 Instalação da GUI em nethunter rootless na versão nano
 
+### Executar nethunter:
+```
+nh
+```
+
 ### Instalar a CLI nano
 ```
 apt update && apt install wget -y && wget -O install-nethunter-termux https://offs.ec/2MceZWr && bash install-nethunter-termux
