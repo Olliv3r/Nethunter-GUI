@@ -1,16 +1,14 @@
 # Nethunter-GUI
-Instalador da GUI na versão nano do nethunter
-
-Instalação da GUI em nethunter rootless na versão nano
+Instalador da interface gráfica no nethunter rootless
 
 ### Instalar a CLI nano
-Obs! Escolha a versão ```nano```
+Obs! Escolha a versão `nano` ou `minimal`
 ```
 apt update && apt install wget -y && wget -O install-nethunter-termux https://offs.ec/2MceZWr && bash install-nethunter-termux
 ```
 
 ### Instalar a GUI
-Execute o nethunter: ```nh```
+Execute o nethunter: `nh`
 ```
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt install udisks2 -y && sudo apt install xfce4 xfce4-whiskermenu-plugin qterminal dbus-x11 firefox-esr tigervnc-standalone-server kali-themes -y
 ```
