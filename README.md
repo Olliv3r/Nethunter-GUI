@@ -8,6 +8,12 @@ apt update && apt install wget -y && wget -O install-nethunter-termux https://of
 ```
 
 ### Instalar a GUI
+
+Conceder acesso a internet ao nethunter:
+```
+echo 'nameserver 8.8.8.8' >> /etc/resolv.conf
+```
+
 Execute o nethunter: `nh`
 ```
 sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt install udisks2 -y && sudo apt install xfce4 xfce4-whiskermenu-plugin qterminal dbus-x11 firefox-esr tigervnc-standalone-server kali-themes -y
